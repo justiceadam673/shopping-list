@@ -17,9 +17,7 @@ function addItems (e) {
   // create new list items
   const newItem = document.createTextNode(itemInput.value);
   const newList = document.createElement('li');
-  if (confirm('Are you sure?')) {
-    newList.appendChild(newItem);
-  }
+  newList.appendChild(newItem);
   const button = createButton("remove-item btn-link text-red");
   newList.appendChild(button);
   console.log(newList);
