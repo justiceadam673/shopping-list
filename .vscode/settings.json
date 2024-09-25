@@ -1,0 +1,6 @@
+{
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+}
